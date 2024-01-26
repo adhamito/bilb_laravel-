@@ -17,6 +17,5 @@ use App\Http\Controllers\LivreController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/livres', [LivreController::class, 'index'])->name('livres.index');
 
 Route::resource('/livres', LivreController::class);
