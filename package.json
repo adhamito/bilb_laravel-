@@ -10,4 +10,10 @@
         "laravel-vite-plugin": "^1.0.0",
         "vite": "^5.0.0"
     }
+    {
+    "require": {
+        "php": "^8.0.30",  // Ensure this matches the build environment's PHP version
+        // Other dependencies...
+    }
+}
 }
